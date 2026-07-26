@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/user/DeciAI/
+notes: >-
+  Deci AI's first-party software is distributed as open-source Python
+  libraries on PyPI (author "Deci AI"). Deci was acquired by NVIDIA in 2024;
+  deci.ai now redirects to NVIDIA and there is no live hosted API, so there
+  are no API-client SDKs — these are the provider's own published packages.
+packages:
+  - language: python
+    registry: pypi
+    name: super-gradients
+    url: https://pypi.org/project/super-gradients/
+    install: pip install super-gradients
+    version: 3.7.1
+    license: Apache-2.0
+    source: https://github.com/Deci-AI/super-gradients
+    description: >-
+      SuperGradients — open-source PyTorch training library for state-of-the-art
+      computer vision models, home of the YOLO-NAS object-detection architecture.
+    official: true
+  - language: python
+    registry: pypi
+    name: data-gradients
+    url: https://pypi.org/project/data-gradients/
+    install: pip install data-gradients
+    version: 0.3.2
+    source: https://github.com/Deci-AI/data-gradients
+    description: >-
+      DataGradients — open-source computer-vision dataset analysis and profiling tool.
+    official: true

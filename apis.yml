@@ -1,19 +1,49 @@
 aid: deci-ai
 name: Deci AI
-description: Deci AI is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Deci AI was a deep-learning development company (founded 2019, Tel Aviv)
+  whose platform helped teams build, optimize, and deploy computer-vision and
+  NLP models in production. Its stack combined the AutoNAC neural-architecture-search
+  engine, the Infery inference runtime, and the open-source SuperGradients PyTorch
+  training library — the home of the YOLO-NAS object-detection architecture. Deci
+  was acquired by NVIDIA in 2024; deci.ai now redirects to NVIDIA and there is no
+  live standalone hosted API or developer console. This API Evangelist profile
+  tracks the company's surviving first-party open-source software surface
+  (SuperGradients and DataGradients on PyPI, published from the Deci-AI GitHub org).
 url: https://raw.githubusercontent.com/api-evangelist/deci-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/56918593?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: NVIDIA (2024)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Model Optimization
+- Inference
+- Neural Architecture Search
+- MLOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://deci.ai/
+- type: GitHubOrganization
+  url: https://github.com/Deci-AI
+- type: Packages
+  url: https://raw.githubusercontent.com/api-evangelist/deci-ai/refs/heads/main/packages/deci-ai-packages.yml
+- type: SDKs
+  url: https://raw.githubusercontent.com/api-evangelist/deci-ai/refs/heads/main/packages/deci-ai-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
