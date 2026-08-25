@@ -1,15 +1,12 @@
 aid: deci-ai
 name: Deci AI
-description: >-
-  Deci AI was a deep-learning development company (founded 2019, Tel Aviv)
-  whose platform helped teams build, optimize, and deploy computer-vision and
-  NLP models in production. Its stack combined the AutoNAC neural-architecture-search
-  engine, the Infery inference runtime, and the open-source SuperGradients PyTorch
-  training library — the home of the YOLO-NAS object-detection architecture. Deci
-  was acquired by NVIDIA in 2024; deci.ai now redirects to NVIDIA and there is no
-  live standalone hosted API or developer console. This API Evangelist profile
-  tracks the company's surviving first-party open-source software surface
-  (SuperGradients and DataGradients on PyPI, published from the Deci-AI GitHub org).
+description: Deci AI was a deep-learning development company (founded 2019, Tel Aviv) whose platform helped teams
+  build, optimize, and deploy computer-vision and NLP models in production. Its stack combined the AutoNAC neural-architecture-search
+  engine, the Infery inference runtime, and the open-source SuperGradients PyTorch training library — the home of
+  the YOLO-NAS object-detection architecture. Deci was acquired by NVIDIA in 2024; deci.ai now redirects to NVIDIA
+  and there is no live standalone hosted API or developer console. This API Evangelist profile tracks the company's
+  surviving first-party open-source software surface (SuperGradients and DataGradients on PyPI, published from the
+  Deci-AI GitHub org).
 url: https://raw.githubusercontent.com/api-evangelist/deci-ai/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -33,7 +30,7 @@ x-status: acquired
 x-acquired-by: NVIDIA (2024)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-21'
 tags:
 - Company
 - Artificial Intelligence
@@ -61,6 +58,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/nvidia/
+  name: Nvidia
+  x-relationship: acquisition
+  x-generated-by: nvidia-family:2026-08-21
+  x-acquired: 2024
 - type: Website
   url: https://deci.ai/
 - type: GitHubOrganization
@@ -74,3 +77,6 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: nvidia
+x-relationship: acquisition
+x-acquired: 2024
