@@ -47,9 +47,9 @@ modified: '2026-08-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Deep Learning
-- Computer-Vision
+- Computer Vision
 - Model Optimization
 - Inference
 - Neural Architecture Search
@@ -64,6 +64,8 @@ tags_raw:
 - Inference
 - Neural Architecture Search
 - MLOps
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
