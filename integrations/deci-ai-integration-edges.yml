@@ -38,6 +38,36 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-official-sdks.py
   first_seen: '2026-10-18'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/Deci
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - Deci/DeciLM-7B-instruct
+  - Deci/DeciLM-7B-instruct-GGUF
+  - Deci/DeciLM-7B
+  - Deci/DeciLM-6b
+  - Deci/DeciCoder-1b
+  - Deci/DeciLM-6b-instruct
+  - Deci/DeciCoder-6B
+  - Deci/DeciDiffusion-v1-0
+  - Deci/DeciCoder-Demo
+  - Deci/YOLO-NAS-Pose-Demo
+  - Deci/DeciDiffusion-v2-0
+  - Deci/DeciCoder-6B-Demo
+  listing_count: 2
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub models
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
 generated: '2026-10-18'
 method: searched
 source:
@@ -56,3 +86,4 @@ checked:
 - https://registry.npmjs.org
 - https://repo1.maven.org/maven2
 - https://rubygems.org/api/v1
+- hugging-face/integrations/hugging-face-integration-edges.yml
